@@ -1,0 +1,3 @@
+n=int(input())
+k=int(str(n)[::-1])
+print("Palindrome" if k==n else "Not Palindrome")
