@@ -1,0 +1,6 @@
+input_values = input().split()
+P = int(input_values[0])
+T = int(input_values[1])
+R = int(input_values[2])
+simple_interest = (P * T * R) / 100
+print(int(simple_interest))
